@@ -1,3 +1,16 @@
+---
+
+## 👤 Author
+
+**Simran Vaz**
+- GitHub: [@Similicious11](https://github.com/Similicious11)
+- Project Repository: [ICS Security Monitoring](https://github.com/Similicious11/ics-security-monitoring)
+- LinkedIn: [Simran Vaz](https://www.linkedin.com/in/simran-vaz/)
+---
+
+**⭐ If you find this project useful for learning ICS security, please consider giving it a star!**
+
+
 # ICS Network Traffic Analysis and Security Monitoring
 
 ## Project Overview
