@@ -16,6 +16,32 @@ Author
 A simulated Industrial Control System (ICS) environment demonstrating security monitoring capabilities for Modbus/TCP traffic analysis and anomaly detection.
 
 ## Architecture
+## 📸 Project Demonstrations
+
+### Normal Traffic Analysis
+![Normal Modbus Traffic](docs/screenshots/normal_traffic.png)
+*Baseline traffic showing legitimate HMI reading sensor values from PLC*
+
+### Attack Scenario - Malicious Commands
+![Attack Traffic](docs/screenshots/attack_modbushmi.png)
+*Attacker injecting dangerous out-of-range values*
+
+### Threat Detection - Normal Traffic
+![Detection Normal](docs/screenshots/detect-anomalies_normalTraffic.png)
+*Security analysis showing no anomalies in baseline traffic*
+
+### Threat Detection - Attack Traffic
+![Detection Attack](docs/screenshots/Detect-anomalies_AttackTraffic.png)
+*Automated detection identifying critical threats: 999.9°C temperature, 5000 PSI pressure, unauthorized valve operation*
+
+### System Components
+![PLC Simulator](docs/screenshots/modbus_plc.png)
+*Modbus PLC simulator with real-time sensor updates*
+
+![HMI Interface](docs/screenshots/modbus_hmi.png)
+*HMI client displaying sensor readings and control logic*
+
+
 - **PLC Simulator**: Modbus TCP server simulating temperature, pressure, motor speed, and safety valve sensors
 - **HMI Simulator**: Client reading sensor data and sending control commands
 - **Attack Scripts**: Malicious scenarios demonstrating ICS-specific threats
