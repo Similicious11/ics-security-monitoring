@@ -1,6 +1,6 @@
 ---
 
-## 👤 Author
+## Author
 
 **Simran Vaz**
 - GitHub: [@Similicious11](https://github.com/Similicious11)
