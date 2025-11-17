@@ -1,7 +1,6 @@
 ---
 
-## Author
-
+Author
 **Simran Vaz**
 - GitHub: [@Similicious11](https://github.com/Similicious11)
 - Project Repository: [ICS Security Monitoring](https://github.com/Similicious11/ics-security-monitoring)
